@@ -2,4 +2,3 @@ click
 networkx
 nltk
 underthesea
-re
