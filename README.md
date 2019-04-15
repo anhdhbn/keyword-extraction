@@ -9,13 +9,13 @@ Extract keyword from text using rake and textrank
 |Description       | URL                  | METHOD | PAYLOAD             |    EXAMPLES                       |
 |------------------|----------------------|--------|---------------------|-----------------------------------|
 |Extract keyword using rake   | /api/rake | POST   | {text: String,      |                                   |
-|                  |                      |        |  lang: String,      |                                   |
+|                  |                      |        |  lang: String,      |           lang: "en" or "vi"      |
 |                  |                      |        | min_char_length: Number,|                               |
 |                  |                      |        | max_words_length: Number,|                              |
 |                  |                      |        | min_keyword_frequency: Number}|                         |
 |                  |                      |        |                     |                                   |
-|Extract keyword using textrank   | /api/textrank | POST   | {text: String,      |                          |
-|                  |                      |        |  lang: String}     |                                   |
+|Extract keyword using textrank   | /api/textrank | POST   | {text: String,      |                           |
+|                  |                      |        |  lang: String}     |                                    |
 
 ## Prerequisites
 
